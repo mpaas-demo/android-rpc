@@ -1,0 +1,2 @@
+include ':rpc-build'
+project(':rpc-build').projectDir = new File('app')

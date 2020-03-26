@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">移动网关</string>
+    <string name="rpc_title">RPC</string>
+    <string name="rpc_get_btn">get请求</string>
+    <string name="rpc_post_btn">post请求</string>
+    <string name="rpc_exception_btn">异常请求</string>
+    <string name="rpc_exception_text">该请求通过rpc拦截器来处理异常</string>
+    <string name="rpc_exception_toast">拦截异常，code: %d</string>
+    <string name="rpc_interceptor">rpc拦截器相关示例，可参考类CommonInterceptor</string>
+    <string name="rpc_self_encrypt">开启rpc加密需配置portal工程下assets/mpaas_netconfig.properties文件：\n1. Crypt=true为开启，false为关闭\n2. PubKey的值需要在同一行，可用\\n代替换行\n3. GWWhiteList为白名单，仅域名在白名单中的请求会被加密，多个域名用英文逗号隔开</string>
+</resources>
